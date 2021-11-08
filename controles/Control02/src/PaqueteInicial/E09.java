@@ -1,4 +1,5 @@
 package PaqueteInicial;
+import java.util.Scanner;
 
 public class E09 {
 /*
