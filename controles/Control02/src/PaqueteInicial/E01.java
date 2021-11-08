@@ -7,7 +7,7 @@ public class E01 {
 		String nombre;
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.println("Ingrese su nombre: ");
+		System.out.print("Ingrese su nombre: ");
 		
 		nombre = entrada.nextLine();
 		
