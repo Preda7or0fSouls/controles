@@ -9,6 +9,7 @@ public class E05 {
 	 */
 
 	public static void main(String[] args) {
+		//primer digito = x,num = numero,resto = cociente
 		int num, x = 0, resto;
 
 		Scanner entrada = new Scanner(System.in);
