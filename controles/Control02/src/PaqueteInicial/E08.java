@@ -16,7 +16,7 @@ public class E08 {
 		   
 		    System.out.printf("La parte decimal es: %f\n", decimal);
 		   
-		
+		entrada.close();
 	}
 
 }

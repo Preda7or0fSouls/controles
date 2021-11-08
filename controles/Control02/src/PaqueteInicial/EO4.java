@@ -18,6 +18,8 @@ public class EO4 {
 			  
 			  double inch2 = longitud2 / x;
 			   System.out.println(longitud2  + "cm  = " + inch2 + "in");
+
+			   entrada.close();
 		}
 	}
 

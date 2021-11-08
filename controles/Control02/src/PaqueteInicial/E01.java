@@ -12,5 +12,6 @@ public class E01 {
 		nombre = entrada.nextLine();
 		
         System.out.println("¡Hola " + nombre + "!");
+		entrada.close();
     }
 }

@@ -24,6 +24,7 @@ public class E05 {
 		}
 
 		System.out.println(x);
+		entrada.close();
 	}
 
 }

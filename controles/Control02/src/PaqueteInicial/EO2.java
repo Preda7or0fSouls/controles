@@ -19,6 +19,8 @@ public class EO2 {
 	  
 	  System.out.println("Permimetro: "+ perimeter);
 	  System.out.println("Area: "+ area);
+
+	  entrada.close();
 	}
 	
 

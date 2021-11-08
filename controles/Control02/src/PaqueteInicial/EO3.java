@@ -26,6 +26,8 @@ public class EO3 {
 		  System.out.println("Tercera nota: " + nota3);
 		  System.out.println("Cuarta nota: " + nota4);
 		  System.out.println("El promedio es: " + promedio);
+		  
+		  entrada.close();
 	}
 
 }

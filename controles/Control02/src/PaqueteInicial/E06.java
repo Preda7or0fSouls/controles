@@ -23,6 +23,7 @@ public class E06 {
 		
 		System.out.println("La hipotenusa es " + hypo);
 		
+		entrada.close();
 
 	}
 
