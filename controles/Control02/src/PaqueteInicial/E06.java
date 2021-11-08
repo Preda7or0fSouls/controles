@@ -11,17 +11,17 @@ public class E06 {
 	
 		
 		
-		System.out.println("Ingrese cateto a: ");
+		System.out.print("Ingrese cateto a: ");
 
 		double x = entrada.nextDouble();
 		
-		System.out.println("Ingrese cateto b : ");
+		System.out.print("Ingrese cateto b : ");
 
 		double y = entrada.nextDouble();
 		
 		double hypo = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
 		
-		System.out.println("La hipotenusa es " + hypo);
+		System.out.print("La hipotenusa es " + hypo);
 		
 		entrada.close();
 

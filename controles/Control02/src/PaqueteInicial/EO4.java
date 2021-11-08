@@ -7,17 +7,17 @@ public class EO4 {
 		
 		Scanner entrada = new Scanner(System.in);
 		 double x = 2.54;
-		 System.out.println("Ingrese longitud: ");
+		 System.out.print("Ingrese longitud: ");
 		  double longitud = entrada.nextDouble();
 		  
 		  double inch = longitud / x;
-		   System.out.println(longitud  + "cm  = " + inch + "in");
+		   System.out.print(longitud  + "cm  = " + inch + "in");
 		   
-			 System.out.println("Ingrese longitud: ");
+			 System.out.print("Ingrese longitud: ");
 			  double longitud2 = entrada.nextDouble();
 			  
 			  double inch2 = longitud2 / x;
-			   System.out.println(longitud2  + "cm  = " + inch2 + "in");
+			   System.out.print(longitud2  + "cm  = " + inch2 + "in");
 
 			   entrada.close();
 		}

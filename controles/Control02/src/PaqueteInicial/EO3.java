@@ -16,16 +16,16 @@ public class EO3 {
 		  System.out.println("Ingrese la tercera nota: ");
 		  int nota3 = entrada.nextInt();
 		  
-		  System.out.println("Ingrese la cuarta nota: ");
+		  System.out.print("Ingrese la cuarta nota: ");
 		  int nota4 = entrada.nextInt();
 		  
 		  promedio = (nota1 + nota2 + nota3 + nota4 )/4;
 		  
-		  System.out.println("Primera nota: " + nota1);
-		  System.out.println("Segunda nota: " + nota2);
-		  System.out.println("Tercera nota: " + nota3);
-		  System.out.println("Cuarta nota: " + nota4);
-		  System.out.println("El promedio es: " + promedio);
+		  System.out.print("Primera nota: " + nota1);
+		  System.out.print("Segunda nota: " + nota2);
+		  System.out.print("Tercera nota: " + nota3);
+		  System.out.print("Cuarta nota: " + nota4);
+		  System.out.print("El promedio es: " + promedio);
 		  
 		  entrada.close();
 	}

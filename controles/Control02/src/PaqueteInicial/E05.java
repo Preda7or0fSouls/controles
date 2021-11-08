@@ -13,7 +13,7 @@ public class E05 {
 
 		Scanner entrada = new Scanner(System.in);
 
-		System.out.println("Introduce número: ");
+		System.out.print("Introduce número: ");
 
 		num = entrada.nextInt();
 
@@ -23,7 +23,7 @@ public class E05 {
 			num /= 10;
 		}
 
-		System.out.println(x);
+		System.out.print(x);
 		entrada.close();
 	}
 
